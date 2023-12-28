@@ -1,0 +1,87 @@
+
+body{
+    background-image : url('alexander-grey-jYbKxinWQGk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family : 'Montserrat', sans-serif;
+}
+
+@keyframes rainbow {
+    0%   {color: rgb(217, 25, 25);}
+    20%  {color: rgb(255, 123, 0);}
+    40%  {color: rgb(255, 0, 93);}
+    60% {color: rgb(7, 150, 166);}
+    80% {color: blueviolet;}
+    100% {color:rgb(30, 7, 203);}
+
+}
+h1{
+    color: rgb(203, 7, 131);
+    animation-name : rainbow;    
+    animation-duration : 20s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+}
+li{
+    font-size:20px;
+}
+.main{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    height:80%;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10%;
+}
+.form2, .form1{
+    margin-top: 5%;
+}
+/* button{
+    background-color: lightskyblue;
+}  how to do this? */
+#list{
+    list-style-type: none;
+    margin-left: -10%;
+}
+#list2{
+    list-style-type: none;
+    margin-left: 1%;
+}
+#abc{
+    height:50px;
+    width:700px;
+}
+
+@media (max-width: 1150px){
+    #abc{
+        width:500px;
+    }
+}
+
+@media(max-width: 878px){
+    #abc{
+        width:300px;
+    }
+}
+
+@media(max-width: 520px){
+    #abc{
+        width:200px;
+    }
+}
+@media(max-width:400px){
+    #abc{
+        width:150px;
+    }
+}
+.form2style{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:80%;
+}
